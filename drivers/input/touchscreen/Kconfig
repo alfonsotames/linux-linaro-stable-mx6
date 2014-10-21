@@ -942,5 +942,10 @@ config TOUCHSCREEN_ZFORCE
 
 	  To compile this driver as a module, choose M here: the
 	  module will be called zforce_ts.
+config TOUCHSCREEN_FUSION
+	tristate "fusion touchscreen"
+	help
+	  driver for fusion touchscreen 4, 7 and 10
+
 
 endif
